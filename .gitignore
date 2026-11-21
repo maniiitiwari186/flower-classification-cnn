@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# BloomScan - Dataset and temporary files
+dataset/
+uploads/
+audit_reports/
+.vscode/
+
+# Temporary testing files
+test_flower.png
+test_upload.py
+documentation/mypython.py
+tempCodeRunnerFile.py
+
+# Training history
+*_history.csv
+transfer_fixed_history.csv
+
+# Old models - keep only the final best model
+models/bloomscan_best.keras
+models/bloomscan_final.keras
+models/bloomscan_transfer_best.keras
+models/bloomscan_transfer_final.keras
+models/bloomscan_transfer_fixed_final.keras
+models/bloomscan_v2_best.keras
+models/bloomscan_v2_final.keras
